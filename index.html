@@ -1,0 +1,33 @@
+<!-- notice how both the opening <html> tag and the closing </html> tag are NOT indented so you can clearly see the start and end of the code -->
+<html>
+	
+	<!-- the <head> section is for all the information that is needed by the browser but does NOT show up on the page -->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Javascript (Wireframe F)</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<!-- the <body> section is for all the content that is actually displayed on the page -->
+	<body>
+		<div class="center-content">
+			<div class="row black" onclick="removeClass(this)"></div>
+		</div>
+		<div class="blue">
+			<div class="thirdbox grey center-content"> 
+				<img src="image/collage.jpg" class="restrict-img-size" onclick="showImage(this)" id="left_picture"/>
+			</div>
+			<div class="thirdbox light center-content"> 
+				<img src="image/collage_travis.jpg" class="restrict-img-size" onclick="showImage2(this)" id="middle_picture"/>
+			</div>
+			<div class="thirdbox grey center-content" light onclick="addClasss(this)"> 
+				<img src="image/collage_t.jpg" class="restrict-img-size" onclick="showImage3(this)" id="right_picture"/>
+			</div>
+		</div>
+		<div class="center-content">
+			<div class="row black" onclick="removeClass(this)"></div>
+		</div>
+	    <script src="script.js"></script>
+	</body>
+</html>

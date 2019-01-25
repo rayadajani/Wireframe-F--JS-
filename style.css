@@ -1,0 +1,51 @@
+/* Make sure you specify a "height: 100vh", "width: 100vw", and "margin: 0" for all your pages */
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	display: block;
+}
+
+/* You should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+.row {
+	height: 25%;
+	width: 100%;
+}
+
+.blue {
+	background-color: #79A3C0;
+	height: 50%;
+	width: 100%;	
+	display: flex;
+}
+
+.grey {
+	background-color: grey;
+}
+.light{
+	background-color:#C7CDF2;
+}
+.opaque {
+	opacity: 0.5;
+	background-color: #92C6D4;
+}
+.thirdbox{
+	height: 100%;
+	width: calc(100%/3)
+}
+
+.black {
+	background-color: black;
+	display: block;
+}
+
+/* Use this class on your image to restrict the size so it stays completely within it's parent div */
+.restrict-img-size {
+	max-height: 100%;
+	max-width: 100%;
+}
+.center-content {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
